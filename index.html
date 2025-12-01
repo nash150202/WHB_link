@@ -4,7 +4,7 @@
     <title>List of Links</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://mightyutan.com/links/image/MU_logo.png">
+    <link rel="icon" type="image/png" href="https://whbdistributors.com/img/whb-distributors-logo-1519964456.jpg">
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -27,97 +27,150 @@
     <meta name="robots" content="noindex, nofollow">
 
     <link rel="canonical" href="https://example.com/link-list/show">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+
+    <!-- Google Font: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Roboto, sans-serif;
-            background: linear-gradient(135deg, #FCEA38, #FF0000);
             margin: 0;
             padding: 0;
-        }
-        .content {
-            min-height: 100vh;
-            padding-top: 80px;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ff9d00, #ffd106d0);
             display: flex;
-            flex-direction: column;
             align-items: center;
-            color: white;
-            text-align: center;
+            justify-content: center;
+            min-height: 100vh;
         }
+
+        .content {
+            width: 100%;
+            max-width: 480px;
+            padding: 32px 20px 40px;
+            margin: 16px;
+            background: rgba(0, 0, 0, 0.18); /* subtle dark overlay */
+            border-radius: 24px;
+            text-align: center;
+            color: #ffffff;
+            backdrop-filter: blur(8px); /* glass effect (works in modern browsers) */
+        }
+
         .avatar-img {
-            width: 120px;
-            height: 120px;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 20px;
+            margin-bottom: 16px;
+            border: 3px solid rgba(255, 255, 255, 0.8);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
         }
+
         .title {
-            font-size: 22px;
+            font-size: 24px;
             font-weight: 700;
-            margin-bottom: 4px;
+            margin-bottom: 6px;
         }
+
+        .subtitle {
+            font-size: 13px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            opacity: 0.9;
+            margin-bottom: 16px;
+        }
+
         .title-description {
             font-size: 14px;
-            line-height: 21px;
-            font-weight: 500;
-            margin-bottom: 20px;
+            line-height: 1.5;
+            font-weight: 400;
+            margin-bottom: 6px;
+            opacity: 0.95;
         }
+
+        .links-wrapper {
+            margin-top: 24px;
+        }
+
         .link-btn {
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 8px;
+            gap: 10px;
             text-decoration: none;
-            color: #FFFFFF;
+            color: #1f1300;
             background-color: #F5AF3D;
-            border: none;
-            border-radius: 8px;
+            border-radius: 999px;
             font-weight: 500;
-            height: 53px;
+            height: 52px;
             width: 100%;
-            max-width: 600px;
-            margin-top: 10px;
-            transition: all 0.2s ease-in-out;
+            margin: 8px 0;
+            transition: transform 0.16s ease, box-shadow 0.16s ease, background-color 0.16s ease;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
         }
+
         .link-btn:hover {
-            background-color: #790FD6;
+            background-color: #ffcf5e;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.25);
         }
+
         .link-img {
-            height: 28px;
+            height: 26px;
+            width: 26px;
+            object-fit: contain;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 11px;
+            opacity: 0.8;
         }
     </style>
 </head>
 
 <body>
     <div class="content">
-        <img src="C:\Users\nash1\OneDrive\Desktop\Mighty Utan\week 11\image/WHB_logo" alt="Mighty Utan Logo" class="avatar-img">
+        <img src="https://whbdistributors.com/img/whb-distributors-logo-1519964456.jpg" alt="WHB Distributors Logo" class="avatar-img">
 
+        <div class="subtitle">WHB Distributors Sdn Bhd</div>
         <h1 class="title">Connect With Us</h1>
 
         <p class="title-description">
-            Share the love with special gifts & stay connected on social media.
+            Share the love with special gifts &amp; stay connected on social media.
         </p>
 
-        <a href="https://www.facebook.com/MightyUtan" target="_blank" class="link-btn">
-            <img src="C:\Users\nash1\OneDrive\Desktop\Mighty Utan\week 11\image/facebook" alt="Facebook" class="link-img">
-            Facebook
-        </a>
+        <p class="title-description">
+            We are the sole distributor for Spin Master products and Rubik’s Cube in Malaysia.
+        </p>
+        
+        <p class="title-description">
+            We distribute directly to retailers and focus on premium and branded toys and puzzles.
+        </p>
 
-        <a href="https://www.tiktok.com/@mightyutan" target="_blank" class="link-btn">
-            <img src="https://mightyutan.com/links/image/tiktok.png" alt="TikTok" class="link-img">
-            TikTok
-        </a>
+        <div class="links-wrapper">
+            <a href="https://www.facebook.com/MightyUtan" target="_blank" class="link-btn">
+                <img src="https://mightyutan.com/links/image/facebook.png" alt="Facebook" class="link-img">
+                <span>Facebook</span>
+            </a>
 
-        <a href="https://www.instagram.com/mightyutan?igsh=Yms4dGw4YzQzMWFw" target="_blank" class="link-btn">
-            <img src="https://mightyutan.com/links/image/instagram.png" alt="Instagram" class="link-img">
-            Instagram
-        </a>
+            <a href="https://www.instagram.com/mightyutan?igsh=Yms4dGw4YzQzMWFw" target="_blank" class="link-btn">
+                <img src="https://mightyutan.com/links/image/instagram.png" alt="Instagram" class="link-img">
+                <span>Instagram</span>
+            </a>
 
-        <a href="http://www.mightyutan.com.my" target="_blank" class="link-btn">
-            <img src="https://mightyutan.com/links/image/MU_logo.png" alt="Mighty Utan Website" class="link-img">
-            Mighty Utan
-        </a>
+            <a href="http://www.mightyutan.com.my" target="_blank" class="link-btn">
+                <img src="https://whbdistributors.com/img/whb-distributors-logo-1519964456.jpg" alt="WHB Website" class="link-img">
+                <span>WHB Distribution Website</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            © WHB Distributors Sdn Bhd
+        </div>
     </div>
 </body>
 </html>
